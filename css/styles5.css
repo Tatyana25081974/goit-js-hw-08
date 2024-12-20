@@ -1,0 +1,68 @@
+/* Загальні стилі для body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    /* Плавна зміна кольору фону */
+}
+
+/* Стилі для віджета */
+.widget {
+    text-align: center;
+    padding: 100px 88px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+/* Стилі для параграфу */
+.widget p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+/* Стилі для кольорового значення у спані */
+.widget .color {
+    font-weight: 400;
+    color: #2e2f42;
+   font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    
+}
+
+/* Стилі для кнопки */
+button.change-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 148px;
+    height: 40px;
+}
+
+button.change-color:hover {
+background-color: #0056b3;
+}
+

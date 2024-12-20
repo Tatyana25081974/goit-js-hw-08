@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+}
+
+#controls {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+}
+
+#controls input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+     width: 120px;
+    height: 40px;
+   transition: background-color 0.3s ease;
+}
+#controls button[data-create] {
+    background-color: #4e75ff;
+   
+}
+
+button:hover {
+    background-color: #6c8cff;;
+}
+#controls button[data-destroy] {
+    background-color: #ff4e4e;
+    /* Червоний для кнопки Destroy */
+}
+
+#controls button[data-destroy]:hover {
+    background-color: #d84343;
+}
+
+#boxes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 134px;
+    background: #f6f6fe;
+ }
+ #boxes div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+     flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     /* Тінь для квадратів */
+   
+ }
